@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="/css/mp1.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+</head>
+<body>
+                                                <!-- HEADER -->
+  <header data-bs-theme="dark">
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-black">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="./index.html"> <img img src="/img/arrows.png" alt="logo" width="74" height="74">KiRKEY</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav mb-2 me-auto mb-md-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" role="button" data-bs-auto-close="outside" data-bs-toggle="dropdown" aria-expanded="false" href="#">Keycaps</a>
+                <ul class="dropdown-menu dropdown">
+                  <li class="dropend"><a class="dropdown-item dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false" href="#">Cherry Profile PBT</a>
+                    <ul class="dropdown-menu dropdown submenu-compressed">
+                      <li><a class="dropdown-item" href="#">Dolch Red, Gray White Mint, and Blue Black Yellow</a></li>
+                      <li><a class="dropdown-item" href="#">Grey, White, and Blue</a></li>
+                      <li><a class="dropdown-item" href="#">White Mint</a></li>
+                      <li><a class="dropdown-item" href="#">Royal</a></li>
+                      <li><a class="dropdown-item" href="#">Black on White</a></li>
+                      <li><a class="dropdown-item" href="#">Dolch Pink</a></li>
+                      <li><a class="dropdown-item" href="#">Dolch Blue</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropend"><a class="dropdown-item dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false" href="#">Dye-Sub PBT</a>
+                    <ul class="dropdown-menu dropdown submenu-compressed">
+                      <li><a class="dropdown-item" href="#">Bluish Black White</a></li>
+                      <li><a class="dropdown-item" href="#">Wheat Grey</a></li>
+                      <li><a class="dropdown-item" href="#">Iceberg</a></li>
+                      <li><a class="dropdown-item" href="#">Ocean</a></li>
+                      <li><a class="dropdown-item" href="#">Beach</a></li>
+                      <li><a class="dropdown-item" href="#">Unicorn</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropend"><a class="dropdown-item dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false" href="#">ISO, ANSO, & JIS</a>
+                    <ul class="dropdown-menu dropdown submenu-compressed">
+                      <li><a class="dropdown-item" href="#">ISO PBT Keycap Set-Developer</a></li>
+                      <li><a class="dropdown-item" href="#">ISO PBT Keycap Set-Grey White Mint</a></li>
+                      <li><a class="dropdown-item" href="#">ISO PBT Keycap Set-White Mint</a></li>
+                      <li><a class="dropdown-item" href="#">ISO PBT Keycap Set-Hacker Mint</a></li>
+                      <li><a class="dropdown-item" href="#">ISO & ANSI PBT Keycap Set-Blue</a></li>
+                      <li><a class="dropdown-item" href="#">ISO & ANSI PBT Keycap Set-Retro</a></li>
+                      <li><a class="dropdown-item" href="#">ISO & ANSI PBT Keycap Set-Carbon</a></li>
+                      <li><a class="dropdown-item" href="#">ISO & ANSI PBT Keycap Set-Iceberg</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropend"><a class="dropdown-item dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false" href="#">OSA & KSA Profile PBT</a>
+                    <ul class="dropdown-menu dropdown submenu-compressed">
+                      <li><a class="dropdown-item" href="#">OSA Profile PBT Keycaps</a></li>
+                      <li><a class="dropdown-item" href="#">KSA Profile PBT Keycaps</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropend"><a class="dropdown-item dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false" href="#">Special Keycaps</a>
+                    <ul class="dropdown-menu dropdown submenu-compressed">
+                      <li ><a class="dropdown-item" href="#">Morse Code</a></li>
+                    </ul>
+                  </li>
+                </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" role="button" aria-expanded="false" href="/pages/specs.html">Specs</a></li>
+            <li class="nav-item">
+              <a class="nav-link" role="button" href="#">Other Accessories</a></li>   
+          </ul>
+          <div class="dropdown">
+            <button class="btn btn-outline-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside" type="submit">Login</button>
+              <form class="dropdown-menu p-4">
+                <div class="mb-3">
+                  <label for="exampleDropdownFormEmail2" class="form-label">Email address</label>
+                  <input type="email" class="form-control" id="exampleDropdownFormEmail2" placeholder="email@example.com">
+                </div>
+                <div class="mb-3">
+                  <label for="exampleDropdownFormPassword2" class="form-label">Password</label>
+                  <input type="password" class="form-control" id="exampleDropdownFormPassword2" placeholder="Password">
+                </div>
+                <div class="mb-3">
+                  <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="dropdownCheck2">
+                    <label class="form-check-label" for="dropdownCheck2">
+                      Remember me
+                    </label>
+                  </div>
+                </div>
+                <button type="submit" class="btn btn-primary">Sign in</button>
+              </form>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>                                  <!-- HERO -->
+    <div class="image-container">
+      <img class="image" src="/img/bg.jpg"></img>
+    </div>
+      <div class="container-fluid overlay-content">
+        <div class="container-sm">
+            <h1 class="display-5 fw-bold text-light">KiRKEY</h1>
+            <h1 class="display-5 fw-bold">Wireless Custom Keyboard | 2.4 GHz with 1000 Hz Polling Rate | QMK/VIA</h1>
+            <p class="lead text-shadow">Introducing the KiRKEY K3, a 2.4 GHz full metal custom mechanical keyboard designed for peak performance. Dominate your gaming arena in style with the KiRKEY K3's solid metal body and high-speed 2.4 GHz wireless connection. Unlock endless customization possibilities with the open-source QMK/VIA software, allowing you to tailor your favorite keys and macros with ease. As a Keychron brand, the KiRKEY K3 is designed for easy assembly, enabling you to fine-tune every component to your liking. With a flexible double-gasket design, hot-swappable PCB, and Bluetooth connectivity for seamless multitasking, the KiRKEY K3 is poised to deliver an entirely new gaming experience in no time.</p>
+        </div>
+        <div class="gap-2 d-flex justify-content-center">
+            <a role="button" class="btn btn-light btn-lg px-4" href="#">Order Now</a>
+            <a role="button" class="btn btn-secondary btn-lg px-4" href="#">Contact Us</a>
+        </div>
+      </div>
+  </main>
+      <script src="/docs/5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <script>
+          AOS.init();
+        </script>
+</body>
+<!-- <script src="/MP1/kirkneri.github.io/js/bootstrap.bundle.min.js"></script> -->\
+</html>
