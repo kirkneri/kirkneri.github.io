@@ -64,7 +64,7 @@
               <button type="submit" class="btn btn-light">Sign in</button>
               <div class="dropdown-divider"></div>
               <a class="dropdown-item" type="button" href="#" data-bs-toggle="modal" data-bs-target="#signup">Don't have an account? Sign up</a>
-              <a class="dropdown-item" href="#">Forgot password?</a>
+              <a class="dropdown-item" role="button" href="#" data-bs-toggle="modal" data-bs-target="#reset">Forgot password?</a>
             </form>
           </div>
         </div>
@@ -134,6 +134,34 @@
             </div>
         </div>           
     </div>
+                                                                <!-- RESET PW -->
+
+    <div class="modal fade" data-bs-theme="dark" id="reset" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-hidden="true"> 
+      <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content text-light">
+              <div class="modal-header p-5 pb-4 border-bottom-0">
+                  <h1 class="fw-bold mb-0 fs-2">Reset Password</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body p-5 pt-0">
+                  <form>
+                      <div class="form-floating mb-3">
+                          <input type="email" class="form-control rounded-3" id="floatingInput" placeholder="email@email.com">
+                          <label for="floatingInput">Email address</label>
+                      </div>
+                  </form>
+                  <div>
+                    <p class="text-center">Enter your email address and we'll send you an email with instructions to reset your password.</p>
+                  </div>
+              </div> 
+              <div class="modal-footer">
+                  <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Cancel</button>
+                  <button type="submit" class="btn btn-outline-light">Reset</button>
+              </div>
+          </div>
+      </div>           
+    </div>
+
                                        <!-- MODAL END -->
   </main>
   <footer>
