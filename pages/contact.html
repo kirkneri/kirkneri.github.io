@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>KiRKEY</title>
+  <title>Contact</title>
   <link rel="icon" type="image/x-icon" href="/img/arrows.png">
   <link rel="stylesheet" href="/css/style.css">
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
@@ -11,8 +11,8 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
 </head>
-<body>
-                                                <!-- HEADER -->
+<body class="bg-black text-light">
+                          <!-- HEADER -->
   <header data-bs-theme="dark">
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-black">
       <div class="container-fluid">
@@ -71,22 +71,48 @@
       </div>
     </nav>
   </header>
-  <main>                                  <!-- HERO -->
-    <div class="image-container">
-      <img class="image" src="/img/bg.jpg"></img>
-    </div>
-      <div class="container-fluid overlay-content">
-        <div class="container-sm">
-            <h1 class="display-5 fw-bold text-light text-shadow">KiRKEY K3</h1>
-            <h1 class="display-5 fw-bold text-shadow">QMK/VIA Wireless Custom Keyboard</h1>
-            <p class="lead text-shadow fw-normal">Introducing the KiRKEY K3, a 2.4 GHz full metal custom mechanical keyboard designed for peak performance. Dominate your gaming arena in style with the KiRKEY K3's solid metal body and high-speed 2.4 GHz wireless connection. Unlock endless customization possibilities with the open-source QMK/VIA software, allowing you to tailor your favorite keys and macros with ease. As a Keychron brand, the KiRKEY K3 is designed for easy assembly, enabling you to fine-tune every component to your liking. With a flexible double-gasket design, hot-swappable PCB, and Bluetooth connectivity for seamless multitasking, the KiRKEY K3 is poised to deliver an entirely new gaming experience in no time.</p>
+                                    <!-- CONTACT FORM --> 
+  <main class="pages-margin contact-form min-vh-100">
+    <section class="container">
+        <div>
+            <h1 class="text-center">Contact Us</h1>
+            <article>
+                <p>Feel free to reach out with any inquiries. You can contact us via email at <a class="text-primary text-decoration-none" href="mailto:support@kirkey.com">support@kirkey.com</a> or by completing the provided form. Our team aims to respond promptly, typically within 48 hours, during our office hours from Monday to Friday, 9 am to 6 pm (GMT+8), or possibly even sooner.</p>
+            </article>
         </div>
-        <div class="gap-2 d-flex justify-content-center">
-            <a role="button" class="btn btn-dark btn-lg px-4" href="/pages/specs.html">Features</a>
+    </section>
+    <section class="container mt-5" data-bs-theme="dark">
+            <div class="d-flex flex-column justify-content-center">
+                    <div class="form-floating mb-3">
+                    <input type="email" class="form-control" id="email-address" placeholder="name@example.com">
+                    <label for="email-address">Email address</label>
+                    </div>
+                        <div class="form-floating mb-3">
+                        <input type="text" class="form-control" placeholder="Complete Name" id="name"></input>
+                        <label for="name">Name</label>
+                        </div>
+                    <div class="form-floating mb-3">
+                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea" style="height: 100px"></textarea>
+                    <label for="floatingTextarea">Comments</label>
+                    </div>
+                <div>
+                <a class="btn btn-light" type="submit" role="button" href="#">Submit</a>
+                </div>
+            </div>
+    </section>
+    <section>
+        <div class="pages-margin container d-flex flex-column align-items-center">
+            <h1>Get subscribed to our emails</h1>
+            <p>Be the first to know about new collections and exclusive offers.</p>
+            <div class="input-group w-50">
+                <input type="email" class="form-control" placeholder="email address" aria-label="sub-email-address" aria-describedby="button-addon">
+                <button class="btn btn-outline-light" type="button" id="button-addon2"><i class="bi bi-arrow-right"></i></button>
+            </div>
         </div>
-      </div>
+    </section>
+  </main>
 
-                                    <!-- MODALS -->
+                            <!-- MODALS -->
       <!-- Sign up -->
       <div class="modal fade" data-bs-theme="dark" id="signup" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-hidden="true"> 
         <div class="modal-dialog modal-dialog-centered">
@@ -132,14 +158,29 @@
                     <button type="submit" class="btn btn-outline-light">Submit</button>
                 </div>
             </div>
-        </div>           
-    </div>
+          </div>           
+        </div>
                                        <!-- MODAL END -->
-  </main>
-      <script src="/docs/5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-      <script>
-          AOS.init();
-        </script>
+
+                                        <!-- FOOTER -->
+  <footer class="d-flex flex-wrap justify-content-around align-items-center py-3 my-4 border-top">
+    <div class="col-md-4 d-flex align-items-center">
+      <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+        <img class="bi" width="74" height="74" src="/img/arrows.png">
+      </a>
+      <span class="mb-3 mb-md-0 text-body-light">© 2023 KiRKEY Keyboards</span>
+    </div>
+
+    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex icons">
+      <li class="ms-3"><a class="text-body-light" href="#"><img width="24" height="24" src="/img/twitter.png" alt="twitter"></a></li>
+      <li class="ms-3"><a class="text-body-light" href="#"><img width="24" height="24" src="/img/fb.png" alt="facebook"></a></li>
+      <li class="ms-3"><a class="text-body-light" href="#"><img width="24" height="24" src="/img/instagram.png" alt="instagram"></a></li>
+    </ul>
+  </footer>
+   
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>
