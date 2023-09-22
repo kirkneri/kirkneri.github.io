@@ -43,15 +43,15 @@
 }
 
 .text-brown {
-    color: #2d1114ff;
+    color: rgb(95, 41, 46);
 }
 
 .text-yellow {
-    color: #f2d741ff;
+    color: rgb(226, 203, 72);
 }
 
 .text-shadow {
-    text-shadow: 1px 1px 1px black;
+    text-shadow: 2px 1.5px 8px black;
 }
 
 .form-width {
@@ -65,6 +65,7 @@
 .pricing-header {
     max-width: 700px;
 }
+
 
 /* GLOBAL STYLES
 -------------------------------------------------- */
@@ -157,4 +158,24 @@ letter-spacing: -.05rem;
 .bd-placeholder-img-lg {
     font-size: 3.5rem;
 }
+}
+
+@media (max-width: 768px) {
+    .card-body {
+        padding: 1rem; /* Adjust padding as needed */
+    }
+
+    .btn {
+        padding: 5px 15px; /* Adjust button padding */
+        font-size: 12px; /* Adjust button font size */
+    }
+
+    .card-title {
+        font-size: 1.25rem; /* Adjust card title font size */
+    }
+
+    /* Center buttons in card body */
+    .list-unstyled {
+        text-align: center;
+    }
 }
