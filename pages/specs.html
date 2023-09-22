@@ -15,7 +15,7 @@
   <header data-bs-theme="dark">
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-black">
       <div class="container-fluid">
-        <a class="navbar-brand" href="./index.html"> <img img src="/img/arrows.png" alt="logo" width="74" height="74">KiRKEY</a>
+        <a class="navbar-brand" href="/index.html"> <img img src="/img/arrows.png" alt="logo" width="74" height="74">KiRKEY</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -24,69 +24,46 @@
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
             </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" role="button" data-bs-auto-close="outside" data-bs-toggle="dropdown" aria-expanded="false" href="#">Keycaps</a>
-                <ul class="dropdown-menu dropdown">
-                  <li class="dropend"><a class="dropdown-item dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false" href="#">Cherry Profile PBT</a>
-                    <ul class="dropdown-menu dropdown submenu-compressed">
-                      <li><a class="dropdown-item" href="#">Dolch Red, Gray White Mint, and Blue Black Yellow</a></li>
-                      <li><a class="dropdown-item" href="#">Grey, White, and Blue</a></li>
-                      <li><a class="dropdown-item" href="#">White Mint</a></li>
-                      <li><a class="dropdown-item" href="#">Royal</a></li>
-                      <li><a class="dropdown-item" href="#">Black on White</a></li>
-                      <li><a class="dropdown-item" href="#">Dolch Pink</a></li>
-                      <li><a class="dropdown-item" href="#">Dolch Blue</a></li>
-                    </ul>
-                  </li>
-                  <li class="dropend"><a class="dropdown-item dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false" href="#">Dye-Sub PBT</a>
-                    <ul class="dropdown-menu dropdown submenu-compressed">
-                      <li><a class="dropdown-item" href="#">Bluish Black White</a></li>
-                      <li><a class="dropdown-item" href="#">Wheat Grey</a></li>
-                      <li><a class="dropdown-item" href="#">Iceberg</a></li>
-                      <li><a class="dropdown-item" href="#">Ocean</a></li>
-                      <li><a class="dropdown-item" href="#">Beach</a></li>
-                      <li><a class="dropdown-item" href="#">Unicorn</a></li>
-                    </ul>
-                  </li>
-                  <li class="dropend"><a class="dropdown-item dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false" href="#">ISO, ANSO, & JIS</a>
-                    <ul class="dropdown-menu dropdown submenu-compressed">
-                      <li><a class="dropdown-item" href="#">ISO PBT Keycap Set-Developer</a></li>
-                      <li><a class="dropdown-item" href="#">ISO PBT Keycap Set-Grey White Mint</a></li>
-                      <li><a class="dropdown-item" href="#">ISO PBT Keycap Set-White Mint</a></li>
-                      <li><a class="dropdown-item" href="#">ISO PBT Keycap Set-Hacker Mint</a></li>
-                      <li><a class="dropdown-item" href="#">ISO & ANSI PBT Keycap Set-Blue</a></li>
-                      <li><a class="dropdown-item" href="#">ISO & ANSI PBT Keycap Set-Retro</a></li>
-                      <li><a class="dropdown-item" href="#">ISO & ANSI PBT Keycap Set-Carbon</a></li>
-                      <li><a class="dropdown-item" href="#">ISO & ANSI PBT Keycap Set-Iceberg</a></li>
-                    </ul>
-                  </li>
-                  <li class="dropend"><a class="dropdown-item dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false" href="#">OSA & KSA Profile PBT</a>
-                    <ul class="dropdown-menu dropdown submenu-compressed">
-                      <li><a class="dropdown-item" href="#">OSA Profile PBT Keycaps</a></li>
-                      <li><a class="dropdown-item" href="#">KSA Profile PBT Keycaps</a></li>
-                    </ul>
-                  </li>
-                  <li class="dropend"><a class="dropdown-item dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false" href="#">Special Keycaps</a>
-                    <ul class="dropdown-menu dropdown submenu-compressed">
-                      <li ><a class="dropdown-item" href="#">Morse Code</a></li>
-                    </ul>
-                  </li>
-                </ul>
+            <li class="nav-item">
+              <a class="nav-link" role="button" href="#">Contact Us</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" role="button" aria-expanded="false" href="/pages/specs.html">Specs</a></li>
             <li class="nav-item">
-              <a class="nav-link" role="button" href="#">Other Accessories</a></li>   
+              <a class="nav-link" role="button" aria-expanded="false" href="/pages/order.html">Order Now</a></li>   
           </ul>
-
-          <form>
-            <button class="btn btn-outline-secondary" type="submit">Login</button>
-          </form>
+          <div class="dropdown">                 <!-- LOGIN -->
+            <button type="button" id="login" class="btn btn-outline-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside">
+              Login
+            </button>
+            <form class="dropdown-menu p-4 dropdown-menu-end form-width">
+              <div class="mb-3">
+                <label for="exampleDropdownFormEmail2" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleDropdownFormEmail2" placeholder="email@example.com">
+              </div>
+              <div class="mb-3">
+                <label for="exampleDropdownFormPassword2" class="form-label">Password</label>
+                <input type="password" class="form-control" id="exampleDropdownFormPassword2" placeholder="Password">
+              </div>
+              <div class="mb-3">
+                <div class="form-check">
+                  <input type="checkbox" class="form-check-input" id="dropdownCheck2">
+                  <label class="form-check-label" for="dropdownCheck2">
+                    Remember me
+                  </label>
+                </div>
+              </div>
+              <button type="submit" class="btn btn-light">Sign in</button>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" type="button" href="#" data-bs-toggle="modal" data-bs-target="#signup">Don't have an account? Sign up</a>
+              <a class="dropdown-item" href="#">Forgot password?</a>
+            </form>
+          </div>
         </div>
       </div>
     </nav>
   </header>
-  <main>
+  <main>                                      <!-- CAROUSEL START -->
       <div id="myCarousel" class="carousel slide mb-5" data-bs-ride="carousel">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -134,10 +111,11 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
-    
+                                  <!-- CAROUSEL END -->
+
       <div class="container marketing">
     
-        <!-- Switches -->
+                                  <!-- 3 Switches START -->
         <div class="row">
           <div class="col-lg-4">
             <img class="bd-placeholder-img rounded-circle" oncontextmenu="return false;" width="140" height="140" src="/img/Gateron-Jupiter-Red-Switch_700x.png" aria-hidden="true" focusable="false" alt="gateron-red"></img>
@@ -154,9 +132,15 @@
             <h2 class="fw-normal">Gateron Jupiter <span class="text-yellow">Banana<span></h2>
             <p>The Gateron Jupiter Banana Switch, a tactile variant, boasts a 59±10 gf actuation force, 2.0±0.6 mm pre-travel, and 3.4 mm total travel. It delivers a crisp, early tactile bump with a two-stage spring for enhanced feedback and durability up to 80M cycles. Notably, it features a softer backlight effect, stable 5 pins, and comes factory pre-lubed for a smoother and more responsive typing experience. Ideal for those seeking a precise and robust typing experience.</p>
           </div><!-- /.col-lg-4 -->
-        </div><!-- /.row -->
+        </div>                              <!-- 3 Switches END -->
     
-          <!-- START THE FEATURETTES -->
+                                        <!-- START THE FEATURETTES -->
+
+      <hr class="featurette-divider">
+
+      <div class="container">
+        <img class="img-fluid" oncontextmenu="return false;" src="/img/features.png" alt="features">
+      </div> 
 
       <hr class="featurette-divider">
 
@@ -165,8 +149,8 @@
           <h2 class="featurette-heading fw-normal lh-1">Ultimate Wireless Gaming Freedom. <span class="text-body-secondary text-light-emphasis">Versatile Connectivity.</span></h2>
           <p class="lead">Experience gaming without limits with the KiRKEY K3, which offers a 2.4 GHz wireless connection featuring a remarkable 1000 Hz polling rate. Additionally, it enables seamless multitasking across three devices via stable Bluetooth 5.1, ensuring swift transitions between your computer, phone, and tablet for an unparalleled gaming experience.</p>
         </div>
-        <div class="col-md-5" data-aos="fade-left">
-          <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" oncontextmenu="return false;" width="500" height="500" src="/img/gaming.jpg" focusable="false"></img>
+        <div class="col-md-5 align-self-end" data-aos="fade-left">
+          <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" oncontextmenu="return false;" width="500" height="500" src="/img/gaming.jpg" focusable="false" alt="gaming"></img>
         </div>
       </div>
 
@@ -177,8 +161,8 @@
           <h2 class="featurette-heading fw-normal lh-1">Rugged Elegance. <span class="text-body-secondary text-light-emphasis">Built to Last.</span></h2>
           <p class="lead">The KiRKEY K3 isn't just a functional tool; it's a work of art for your workspace. Crafted with a 6063 aluminum CNC machined body and refined through a meticulous process of polishing, anodizing, and sandblasting, it embodies durability and elegance with twenty-four intricate manufacturing steps.</p>
         </div>
-        <div class="col-md-5 order-md-1" data-aos="fade-right">
-          <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" oncontextmenu="return false;" width="500" height="500" src="/img/finish.png" focusable="false"></img>
+        <div class="col-md-5 order-md-1 align-self-end" data-aos="fade-right">
+          <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" oncontextmenu="return false;" width="500" height="500" src="/img/finish.png" focusable="false" alt="finish"></img>
         </div>
       </div>
 
@@ -189,8 +173,8 @@
           <h2 class="featurette-heading fw-normal lh-1">Adaptable Configuration. <span class="text-body-secondary text-light-emphasis">Effortless Personalization.</span></h2>
           <p class="lead">When it comes to crafting your ideal keyboard, every detail counts, and the KiRKEY K3 understands that. That's why every component of the KiRKEY K3 is designed to be easily assembled, customized, and adjusted, empowering you to create the ultimate typing experience that suits your preferences perfectly.</p>
         </div>
-        <div class="col-md-5" data-aos="fade-left">
-          <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" oncontextmenu="return false;" width="500" height="500" src="/img/structure.png" focusable="false"></img>
+        <div class="col-md-5 align-self-end" data-aos="fade-left">
+          <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" oncontextmenu="return false;" width="500" height="500" src="/img/structure.png" focusable="false" alt="structure"></img>
         </div>
       </div>
 
@@ -200,8 +184,8 @@
         <div class="col-md-7 order-md-2" data-aos="fade-left">
           <h2 class="featurette-heading fw-normal lh-1">The Double-Gasket Advantage. <span class="text-body-secondary text-light-emphasis">Enhanced Sound and Comfort.</span></h2> <p class="lead">Elevate your typing experience with Keychron's innovative double-gasket mount design featured in the KiRKEY K3. This unique approach combines dampened sound and elasticity, providing a new level of key sounds and comfort. It preserves the flexibility of the gasket structure while enhancing the overall typing sound, delivering a truly satisfying and immersive keyboard experience.</p>
         </div>
-        <div class="col-md-5 order-md-1" data-aos="fade-right">
-          <video class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" controls muted autoplay loop oncontextmenu="return false;" width="500" height="500"><source src="/img/typing.mp4" type="video/mp4" focusable="false"></video>
+        <div class="col-md-5 order-md-1 align-self-end" data-aos="fade-right">
+          <video class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" controls muted autoplay loop oncontextmenu="return false;" width="500" height="500"><source src="/img/typing.mp4" type="video/mp4" focusable="false" alt="typing"></video>
         </div>
       </div>
 
@@ -212,8 +196,8 @@
           <h2 class="featurette-heading fw-normal lh-1">Double-Shot PBT Keycaps. <span class="text-body-secondary text-light-emphasis">Premium Durability.</span></h2>
           <p class="lead">Transform your typing experience with the KiRKEY K3's double-shot PBT keycaps, embracing the beloved Cherry profile. These high-quality keycaps are meticulously crafted from oil-resistant, non-backlight shine-through PBT material, guaranteeing enduring durability and ergonomic comfort. Delight in prolonged usage and an ergonomic typing angle courtesy of this elite keycap set.</p>
         </div>
-        <div class="col-md-5" data-aos="fade-left">
-          <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" oncontextmenu="return false;" width="500" height="500" src="/img/keycaps.png" focusable="false"></img>
+        <div class="col-md-5 align-self-end" data-aos="fade-left">
+          <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" oncontextmenu="return false;" width="500" height="500" src="/img/keycaps.png" focusable="false" alt="keycaps"></img>
         </div>
       </div>
 
@@ -223,8 +207,8 @@
         <div class="col-md-7 order-md-2" data-aos="fade-left">
           <h2 class="featurette-heading fw-normal lh-1">Programmable Knob. <span class="text-body-secondary text-light-emphasis">Customizable Control.</span></h2> <p class="lead">Enhance your gaming rig with the KiRKEY K3's aluminum rotary encoder. This versatile feature enables effortless customization of the knob for assigning key or macro commands, such as zooming in/out, screen brightness adjustment, volume control, and more. Simplify your gaming experience with tailored controls at your fingertips.</p>
         </div>
-        <div class="col-md-5 order-md-1" data-aos="fade-right">
-          <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" oncontextmenu="return false;" width="500" height="500" src="/img/knob.jpg" focusable="false"></img>
+        <div class="col-md-5 order-md-1 align-self-end" data-aos="fade-right">
+          <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" oncontextmenu="return false;" width="500" height="500" src="/img/knob.jpg" focusable="false" alt="knob"></img>
         </div>
       </div>
 
@@ -233,23 +217,109 @@
       <div class="row featurette"> <!-- featurette 7 -->
         <div class="col-md-7" data-aos="fade-right">
           <h2 class="featurette-heading fw-normal lh-1">Remap and Customize. <span class="text-body-secondary text-light-emphasis">Total Key Control.</span></h2>
-          <p class="lead">Unleash your creativity with the KiRKEY K3's QMK/VIA software, an open-source platform offering limitless possibilities for key remapping and macro command creation. Easily configure shortcuts, key combinations, and macros right from your browser. You can also store your preferred settings using the K3's onboard memory. Simply connect the K3 via cable, launch the VIA software, import the JSON file, and effortlessly remap any key to your liking on any system—whether it's macOS, Windows, or Linux. Personalizing your unique keymap has never been more intuitive. For a visual guide, watch our video demonstrating how to transform the M1 key into a Sleep key, creating a convenient shortcut to put your Windows device to sleep (Win + L).</p>
+          <p class="lead">The KiRKEY K3 offers dynamic key customization through its QMK/VIA software. Remap keys, create macros, and store settings seamlessly. Connect via cable, utilize VIA software to reconfigure keys on macOS, Windows, or Linux. Check out the tutorial video for easy transformation of the M1 key into a Sleep key (Win + L) for added convenience.</p>
         </div>
-        <div class="col-md-5" data-aos="fade-left">
-          <video class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" controls muted autoplay loop oncontextmenu="return false;" width="500" height="500"><source src="/img/via.mov" type="video/mp4" focusable="false"></video>
+        <div class="col-md-5 align-self-end" data-aos="fade-left">
+          <video class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" controls muted autoplay loop oncontextmenu="return false;" width="500" height="500"><source src="/img/via.mov" type="video/mp4" focusable="false" alt="via-qmk"></video>
         </div>
       </div>
 
       <hr class="featurette-divider">
 
-      <!-- /END THE FEATURETTES -->
+      <div class="row featurette"> <!-- featurette 8 -->
+        <div class="col-md-7 order-md-2" data-aos="fade-left">
+          <h2 class="featurette-heading fw-normal lh-1">Hot-Swappable. <span class="text-body-secondary text-light-emphasis">Customize On-the-Fly.</span></h2> <p class="lead">Achieve a personalized typing experience with ease on the Kir-key K3. Hot-swap switches effortlessly, supporting a wide range of 3-pin and 5-pin MX style mechanical switches, including Cherry, Gateron, Kailh, Panda, and more. No soldering is needed, enabling you to customize your typing feel in seconds.</p>
+        </div>
+        <div class="col-md-5 order-md-1 align-self-end" data-aos="fade-right">
+          <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" oncontextmenu="return false;" width="500" height="500" src="/img/hotswap.png" focusable="false" alt="hotswap"></img>
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette"> <!-- featurette 7 -->
+        <div class="col-md-7" data-aos="fade-right">
+          <h2 class="featurette-heading fw-normal lh-1">South-Facing RGB. <span class="text-body-secondary text-light-emphasis">Vibrant Keycap Customization.</span></h2>
+          <p class="lead">The KiRKEY K3 boasts south-facing RGB lighting designed to enhance the visibility of non-shine-through PBT keycaps. Offering 22 RGB backlight settings, you can refine RGB hues, brightness, effect speed, modes, and even remap keys using QMK/VIA for a tailored experience.</p>
+        </div>
+        <div class="col-md-5 align-self-end" data-aos="fade-left">
+          <video class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" controls muted autoplay loop oncontextmenu="return false;" width="500" height="500"><source src="/img/rgb.mp4" type="video/mp4" focusable="false" alt="rgb"></video>
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette"> <!-- featurette 8 -->
+        <div class="col-md-7 order-md-2" data-aos="fade-left">
+          <h2 class="featurette-heading fw-normal lh-1">Screw-In Stabilizers. <span class="text-body-secondary text-light-emphasis">Enhanced Stability.</span></h2> <p class="lead">Experience smooth and stable typing on the Kir-key K3 thanks to its built-in PCB-mounted screw-in stabilizers. These stabilizers reduce wobbliness on larger keys like the space bar, shift, enter, and delete. If desired, you can even customize your preferred third-party stabilizers for further personalization.</p>
+        </div>
+        <div class="col-md-5 order-md-1 align-self-end" data-aos="fade-right">
+          <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" oncontextmenu="return false;" width="500" height="500" src="/img/stabilizers.jpg" focusable="false" alt="stabilizers"></img>
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+
+
+                                <!-- /END THE FEATURETTES -->
 
       </div><!-- /.container -->
-                                      <!-- FOOTER -->
-      <footer class="container">
+                                            <!-- MODALS -->
+      <!-- Sign up -->
+      <div class="modal fade" data-bs-theme="dark" id="signup" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-hidden="true"> 
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content text-light">
+                <div class="modal-header p-5 pb-4 border-bottom-0">
+                    <h1 class="fw-bold mb-0 fs-2">Sign up for free</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body p-5 pt-0">
+                    <form>
+                        <div class="form-floating mb-3">
+                            <input type="email" class="form-control rounded-3" id="floatingInput" placeholder="email@email.com">
+                            <label for="floatingInput">Email address</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input type="password" class="form-control rounded-3" id="floatingPassword" placeholder="Password">
+                            <label for="floatingPassword">Password</label>
+                        </div>
+                        <button class="w-100 mb-2 btn btn-lg rounded-3 btn-light" type="submit">Sign up</button>
+                        <small class="text-body-secondary">By clicking Sign up, you agree to the terms of use.</small>
+                        <hr class="my-4">
+                        <h2 class="fs-5 fw-bold mb-3">Or sign up using a third party</h2>
+                        <button class="w-100 py-2 mb-2 btn btn-outline-danger rounded-3" type="submit">
+                            <i class="bi bi-google"></i>&nbsp<use xlink:href="#google"></use>
+                            Sign up with Google
+                        </button>
+                        <button class="w-100 py-2 mb-2 btn btn-outline-light rounded-3" type="submit">
+                            <i class="bi bi-twitter-x"></i>&nbsp<use xlink:href="#twitter"></use>
+                            Sign up with Twitter
+                        </button>
+                        <button class="w-100 py-2 mb-2 btn btn-outline-primary rounded-3" type="submit">
+                            <i class="bi bi-facebook"></i>&nbsp<use xlink:href="#facebook"></use></svg>
+                            Sign up with Facebook
+                        </button>
+                        <button class="w-100 py-2 btn btn-outline-light rounded-3" type="submit">
+                            <i class="bi bi-github"></i>&nbsp<use xlink:href="#github"></use></svg>
+                            Sign up with GitHub
+                        </button>
+                    </form>
+                </div> 
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Cancel</button>
+                    <button type="submit" class="btn btn-outline-light">Submit</button>
+                </div>
+            </div>
+        </div>           
+    </div>
+                                       <!-- MODAL END --> 
+                                      <!-- FOOTER START -->
+      <footer class="container my-5 ">
         <p class="float-end"><a class="back-to-top" href="#">Back to top</i></a></p>
         <p>&copy; 2017-2023 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
       </footer>
+                                      <!-- FOOTER END -->
   </main>
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>

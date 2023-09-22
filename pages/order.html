@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MP1</title>
+  <link rel="stylesheet" href="/css/mp1.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+</head>
+<body class="bg-black">
+                                   <!-- HEADER -->
+  <header data-bs-theme="dark">
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-black">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/index.html"> <img img src="/img/arrows.png" alt="logo" width="74" height="74">KiRKEY</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav mb-2 me-auto mb-md-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" role="button" href="#">Contact Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" role="button" aria-expanded="false" href="/pages/specs.html">Specs</a></li>
+            <li class="nav-item">
+              <a class="nav-link" role="button" href="#">Order Now</a></li>   
+          </ul>
+          <div class="dropdown">       <!-- LOGIN -->
+            <button type="button" id="login" class="btn btn-outline-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside">
+              Login
+            </button>
+            <form class="dropdown-menu p-4 dropdown-menu-end form-width">
+              <div class="mb-3">
+                <label for="exampleDropdownFormEmail2" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleDropdownFormEmail2" placeholder="email@example.com">
+              </div>
+              <div class="mb-3">
+                <label for="exampleDropdownFormPassword2" class="form-label">Password</label>
+                <input type="password" class="form-control" id="exampleDropdownFormPassword2" placeholder="Password">
+              </div>
+              <div class="mb-3">
+                <div class="form-check">
+                  <input type="checkbox" class="form-check-input" id="dropdownCheck2">
+                  <label class="form-check-label" for="dropdownCheck2">
+                    Remember me
+                  </label>
+                </div>
+              </div>
+              <button type="submit" class="btn btn-light">Sign in</button>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" type="button" href="#" data-bs-toggle="modal" data-bs-target="#signup">Don't have an account? Sign up</a>
+              <a class="dropdown-item" href="#">Forgot password?</a>
+            </form>
+          </div>
+        </div>
+      </div>
+    </nav>
+</header>
+                                        <!-- MAIN HEADER -->
+  <main class="bg-black text-white">
+    <div class="container container-pricing mt-5">
+      <section>
+        <div class="pricing-header py-5 p-3 pb-md-4 mx-auto text-center">
+          <h1 class="display-4 fw-normal text-light">KiRKEY L3 Wireless Custom Mechanical Keyboard</h1>
+          <p class="fs-5 text-light">The KiRKEY K3 is a high-performance, customizable mechanical keyboard with a solid metal body, 2.4 GHz wireless connectivity, and extensive customization options.</p>
+        </div>
+      </section>
+                                        <!-- MAIN HEADER END -->
+                                        <!-- MAIN SECTION START -->
+      <section class="container">
+        <div class="row row-cols-1 row-cols-md-3 mb-3 text-center"> 
+            <div class="col"> <!-- CARD 1 -->
+              <div class="card mb-4 rounded-3 shadow-sm">
+                <div class="card-header">
+                  <h4 class="my-0 fw-normal">Gateron Jupiter <span class="text-danger fw-semibold">Red<span></h4>
+                  <img src="/img/KB/Black-red.jpg" class="card-img-top" alt="k3-black">
+                </div>
+                <div class="card-body">
+                  <h1 class="card-title pricing-card-title">$214.00</h1>
+                  <div class="list-unstyled mt-3 mb-4">
+                    <div class="d-flex justify-content-between">
+                      <button type="button" class="btn btn-outline-dark" data-image="/img/KB/Black-red.jpg">Carbon Black</button>
+                      <button type="button" class="btn btn-outline-dark" data-image="/img/KB/Blue-red.jpg">Navy Blue</button>
+                      <button type="button" class="btn btn-outline-dark" data-image="/img/KB/White-red.jpg">Space Silver</button>
+                    </div>
+                  </div>
+                  <button type="button" class="w-50 btn btn-lg btn-dark">Buy now</button>
+                </div>
+              </div>
+            </div>
+            <div class="col"> <!-- CARD 2 -->
+                <div class="card mb-4 rounded-3 shadow-sm">
+                  <div class="card-header">
+                    <h4 class="my-0 fw-normal">Gateron Jupiter <span class="text-brown fw-semibold">Brown<span></h4>
+                    <img src="/img/KB/Black-brown.jpg" class="card-img-top" alt="k3-black">
+                  </div>
+                  <div class="card-body">
+                    <h1 class="card-title pricing-card-title">$214.00</h1>
+                    <div class="list-unstyled mt-3 mb-4">
+                      <div class="d-flex justify-content-between">
+                        <button type="button" class="btn btn-outline-dark" data-image="/img/KB/Black-brown.jpg">Carbon Black</button>
+                        <button type="button" class="btn btn-outline-dark" data-image="/img/KB/Blue-brown.jpg">Navy Blue</button>
+                        <button type="button" class="btn btn-outline-dark" data-image="/img/KB/White-brown.jpg">Space Silver</button>
+                      </div>
+                    </div>
+                    <button type="button" class="w-50 btn btn-lg btn-dark">Buy now</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col"> <!-- CARD 3 -->
+                <div class="card mb-4 rounded-3 shadow-sm">
+                  <div class="card-header">
+                    <h4 class="my-0 fw-normal">Gateron Jupiter <span class="text-yellow fw-semibold">Banana<span></h4>
+                    <img src="/img/KB/Black-yellow.jpg" class="card-img-top" alt="k3-black">
+                  </div>
+                  <div class="card-body">
+                    <h1 class="card-title pricing-card-title">$214.00</h1>
+                    <div class="list-unstyled mt-3 mb-4">
+                      <div class="d-flex justify-content-between">
+                        <button type="button" class="btn btn-outline-dark" data-image="/img/KB/Black-yellow.jpg">Carbon Black</button>
+                        <button type="button" class="btn btn-outline-dark" data-image="/img/KB/Blue-yellow.jpg">Navy Blue</button>
+                        <button type="button" class="btn btn-outline-dark" data-image="/img/KB/White-yellow.jpg">Space Silver</button>
+                      </div>
+                    </div>
+                    <button type="button" class="w-50 btn btn-lg btn-dark">Buy now</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col mx-auto"> <!-- CARD 4 -->
+                <div class="card mb-4 rounded-3 shadow-sm">
+                  <div class="card-header">
+                    <h4 class="my-0 fw-normal">Barebones ANSI</h4>
+                    <img src="/img/KB/BB-black-ANSI.jpg" class="card-img-top" alt="k3-black">
+                  </div>
+                  <div class="card-body">
+                    <h1 class="card-title pricing-card-title">$194.00</h1>
+                    <div class="list-unstyled mt-3 mb-4">
+                      <div class="d-flex justify-content-between">
+                        <button type="button" class="btn btn-outline-dark" data-image="/img/KB/BB-black-ANSI.jpg">Carbon Black</button>
+                        <button type="button" class="btn btn-outline-dark" data-image="/img/KB/BB-blue-ANSI.jpg">Navy Blue</button>
+                        <button type="button" class="btn btn-outline-dark" data-image="/img/KB/BB-white-ANSI.jpg">Space Silver</button>
+                      </div>
+                    </div>
+                    <button type="button" class="w-50 btn btn-lg btn-dark">Buy now</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col mx-auto"> <!-- CARD 5 -->
+                <div class="card mb-4 rounded-3 shadow-sm">
+                  <div class="card-header">
+                    <h4 class="my-0 fw-normal">Barebones ISO</h4>
+                    <img src="/img/KB/BB-black-ISO.jpg" class="card-img-top" alt="k3-black">
+                  </div>
+                  <div class="card-body">
+                    <h1 class="card-title pricing-card-title">$194.00</h1>
+                    <div class="list-unstyled mt-3 mb-4">
+                      <div class="d-flex justify-content-between">
+                        <button type="button" class="btn btn-outline-dark" data-image="/img/KB/BB-black-ISO.jpg">Carbon Black</button>
+                        <button type="button" class="btn btn-outline-dark" data-image="/img/KB/BB-blue-ISO.jpg">Navy Blue</button>
+                        <button type="button" class="btn btn-outline-dark" data-image="/img/KB/BB-white-ISO.jpg">Space Silver</button>
+                      </div>
+                    </div>
+                    <button type="button" class="w-50 btn btn-lg btn-dark">Buy now</button>
+                  </div>
+                </div>
+              </div>
+          </div>
+            
+                                                <!-- TABLE START -->
+        <h2 class="display-6 text-center mb-4">Compare Switches</h2>
+    
+        <div class="table-responsive" data-aos="flip-left">
+          <table class="table text-center table-dark table-striped-columns">
+            <thead>
+              <tr>
+                <th style="width: 34%;"></th>
+                <th style="width: 22%;">Gateron Jupiter Red</th>
+                <th style="width: 22%;">Gateron Jupiter Brown</th>
+                <th style="width: 22%;">Gateron Jupiter Banana</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row" class="text-start">Operating force</th>
+                <td>45 ± 15 gf</td>
+                <td>55 ± 15 gf</td>
+                <td>59 ± 10 gf</td>
+              </tr>
+              <tr>
+                <th scope="row" class="text-start">Pre-travel</th>
+                <td>2 ± 0.6 mm</td>
+                <td>2 ± 0.6 mm</td>
+                <td>2 ± 0.6 mm</td>
+              </tr>
+            </tbody>
+    
+            <tbody>
+              <tr>
+                <th scope="row" class="text-start">Travel distance</th>
+                <td>4 mm max</td>
+                <td>4 mm max</td>
+                <td>3.4 mm max</td>
+              </tr>
+              <tr>
+                <th scope="row" class="text-start">Behavior</th>
+                <td>Linear</td>
+                <td>Tactile</td>
+                <td>Tactile (Similar to Panda switches)</td>
+              </tr>
+              <tr>
+                <th scope="row" class="text-start">Pre-lubed</th>
+                <td>Yes</td>
+                <td>Yes</td>
+                <td>Yes</td>
+              </tr>
+              <tr>
+                <th scope="row" class="text-start">Sound level</th>
+                <td>Quiet</td>
+                <td>Gentle</td>
+                <td>Gentle</td>
+              </tr>
+              <tr>
+                <th scope="row" class="text-start">Suitable for</th>
+                <td>Office/gaming</td>
+                <td>Midway Office/gaming</td>
+                <td>Office/gaming</td>
+              </tr>
+            </tbody>
+          </table>
+                                                <!-- TABLE START END -->
+        </div>
+      </section>
+
+      <!-- MODALS -->
+      <!-- Sign up -->
+      <div class="modal fade" data-bs-theme="dark" id="signup" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-hidden="true"> 
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content text-light">
+                <div class="modal-header p-5 pb-4 border-bottom-0">
+                    <h1 class="fw-bold mb-0 fs-2">Sign up for free</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body p-5 pt-0">
+                    <form>
+                        <div class="form-floating mb-3">
+                            <input type="email" class="form-control rounded-3" id="floatingInput" placeholder="email@email.com">
+                            <label for="floatingInput">Email address</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input type="password" class="form-control rounded-3" id="floatingPassword" placeholder="Password">
+                            <label for="floatingPassword">Password</label>
+                        </div>
+                        <button class="w-100 mb-2 btn btn-lg rounded-3 btn-light" type="submit">Sign up</button>
+                        <small class="text-body-secondary">By clicking Sign up, you agree to the terms of use.</small>
+                        <hr class="my-4">
+                        <h2 class="fs-5 fw-bold mb-3">Or sign up using a third party</h2>
+                        <button class="w-100 py-2 mb-2 btn btn-outline-danger rounded-3" type="submit">
+                            <i class="bi bi-google"></i>&nbsp<use xlink:href="#google"></use>
+                            Sign up with Google
+                        </button>
+                        <button class="w-100 py-2 mb-2 btn btn-outline-light rounded-3" type="submit">
+                            <i class="bi bi-twitter-x"></i>&nbsp<use xlink:href="#twitter"></use>
+                            Sign up with Twitter
+                        </button>
+                        <button class="w-100 py-2 mb-2 btn btn-outline-primary rounded-3" type="submit">
+                            <i class="bi bi-facebook"></i>&nbsp<use xlink:href="#facebook"></use></svg>
+                            Sign up with Facebook
+                        </button>
+                        <button class="w-100 py-2 btn btn-outline-light rounded-3" type="submit">
+                            <i class="bi bi-github"></i>&nbsp<use xlink:href="#github"></use></svg>
+                            Sign up with GitHub
+                        </button>
+                    </form>
+                </div> 
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Cancel</button>
+                    <button type="submit" class="btn btn-outline-light">Submit</button>
+                </div>
+            </div>
+          </div>           
+        </div>
+                                       <!-- MODAL END -->
+
+      <hr class="featurette-divider">
+                                    <!-- FOOTER START -->
+      <footer class="container my-5">
+        <p class="float-end"><a class="back-to-top" href="#">Back to top</i></a></p>
+        <p>&copy; 2017-2023 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+      </footer>
+                                      <!-- FOOTER END -->
+      
+    </div>
+    </main>
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <script src="/js/script.js"></script>
+      <script>
+          AOS.init();
+        </script>
+</body>
+</html>
