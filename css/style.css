@@ -71,10 +71,6 @@
     margin-top: 10rem;
 }
 
-.icons {
-    text-shadow: 5px 8px white;
-}
-
 /* GLOBAL STYLES
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
@@ -169,21 +165,27 @@ letter-spacing: -.05rem;
 }
 
 @media (max-width: 768px) {
-    .card-body {
-        padding: 1rem; /* Adjust padding as needed */
-    }
+.card-body {
+    padding: 1rem; /* Adjust padding as needed */
+}
 
-    .btn {
-        padding: 5px 15px; /* Adjust button padding */
-        font-size: 12px; /* Adjust button font size */
-    }
+.btn {
+    padding: 5px 15px; /* Adjust button padding */
+    font-size: 12px; /* Adjust button font size */
+}
 
-    .card-title {
-        font-size: 1.25rem; /* Adjust card title font size */
-    }
+.card-title {
+    font-size: 1.25rem; /* Adjust card title font size */
+}
 
-    /* Center buttons in card body */
-    .list-unstyled {
-        text-align: center;
-    }
+/* Center buttons in card body */
+.list-unstyled {
+    text-align: center;
+}
+}
+
+@media (max-width: 390px){
+#landing-font {
+    font-size: 1rem;    
+}
 }
