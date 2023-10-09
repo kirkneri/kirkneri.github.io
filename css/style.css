@@ -9,6 +9,14 @@
     transform: translateY(-5px); 
 }
 
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
 .bd-placeholder-img {
     font-size: 1.125rem;
     text-anchor: middle;
